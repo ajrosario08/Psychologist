@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		929AA8DC1BE87346009EED4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AA8DB1BE87346009EED4A /* AppDelegate.swift */; };
-		929AA8DE1BE87346009EED4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AA8DD1BE87346009EED4A /* ViewController.swift */; };
+		929AA8DE1BE87346009EED4A /* PsychologistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AA8DD1BE87346009EED4A /* PsychologistViewController.swift */; };
 		929AA8E11BE87346009EED4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929AA8DF1BE87346009EED4A /* Main.storyboard */; };
 		929AA8E31BE87346009EED4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929AA8E21BE87346009EED4A /* Assets.xcassets */; };
 		929AA8E61BE87346009EED4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929AA8E41BE87346009EED4A /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		929AA8D81BE87346009EED4A /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		929AA8DB1BE87346009EED4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		929AA8DD1BE87346009EED4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		929AA8DD1BE87346009EED4A /* PsychologistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistViewController.swift; sourceTree = "<group>"; };
 		929AA8E01BE87346009EED4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		929AA8E21BE87346009EED4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929AA8E51BE87346009EED4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				929AA8DB1BE87346009EED4A /* AppDelegate.swift */,
-				929AA8DD1BE87346009EED4A /* ViewController.swift */,
+				929AA8DD1BE87346009EED4A /* PsychologistViewController.swift */,
 				929AA8DF1BE87346009EED4A /* Main.storyboard */,
 				929AA8E21BE87346009EED4A /* Assets.xcassets */,
 				929AA8E41BE87346009EED4A /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				929AA8DE1BE87346009EED4A /* ViewController.swift in Sources */,
+				929AA8DE1BE87346009EED4A /* PsychologistViewController.swift in Sources */,
 				929AA8DC1BE87346009EED4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
