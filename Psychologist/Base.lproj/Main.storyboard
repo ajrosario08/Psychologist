@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Psychologist View Controller-->
@@ -16,8 +17,84 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you see in your dreams?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="d83-Lj-88J">
+                                <rect key="frame" x="20" y="20" width="560" height="43"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZQ-MS-SmC">
+                                <rect key="frame" x="230" y="280" width="141" height="41"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="ynB-w7-ELg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Dancing Tree"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ynB-w7-ELg"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfl-TJ-dCT">
+                                <rect key="frame" x="254" y="329" width="92" height="41"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="ced-fU-3j2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Buckeye"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ced-fU-3j2"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HGw-zQ-gav">
+                                <rect key="frame" x="234" y="231" width="132" height="41"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="lRX-bG-LkD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Golden Bear"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="lRX-bG-LkD"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yZQ-MS-SmC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5AD-U8-KLT"/>
+                            <constraint firstItem="Nfl-TJ-dCT" firstAttribute="top" secondItem="yZQ-MS-SmC" secondAttribute="bottom" constant="8" symbolic="YES" id="6Kd-1U-WWF"/>
+                            <constraint firstItem="yZQ-MS-SmC" firstAttribute="centerX" secondItem="d83-Lj-88J" secondAttribute="centerX" id="7lp-0P-0n3"/>
+                            <constraint firstItem="yZQ-MS-SmC" firstAttribute="top" secondItem="HGw-zQ-gav" secondAttribute="bottom" constant="9" id="C1p-sP-2BS"/>
+                            <constraint firstItem="yZQ-MS-SmC" firstAttribute="top" secondItem="HGw-zQ-gav" secondAttribute="bottom" constant="8" symbolic="YES" id="DQx-Vy-UIH"/>
+                            <constraint firstItem="HGw-zQ-gav" firstAttribute="centerX" secondItem="Nfl-TJ-dCT" secondAttribute="centerX" id="EUc-MB-lfI"/>
+                            <constraint firstItem="d83-Lj-88J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ffr-ww-tD9"/>
+                            <constraint firstItem="Nfl-TJ-dCT" firstAttribute="centerX" secondItem="yZQ-MS-SmC" secondAttribute="centerX" id="Gr9-gv-xg9"/>
+                            <constraint firstItem="HGw-zQ-gav" firstAttribute="centerX" secondItem="yZQ-MS-SmC" secondAttribute="centerX" id="TeF-xd-wxx"/>
+                            <constraint firstItem="d83-Lj-88J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dty-tv-oFr"/>
+                            <constraint firstItem="d83-Lj-88J" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="e5a-Wd-DdO"/>
+                            <constraint firstItem="yZQ-MS-SmC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gb5-CQ-9x3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yZQ-MS-SmC" secondAttribute="bottom" constant="285" id="nCc-QK-lc3"/>
+                            <constraint firstItem="HGw-zQ-gav" firstAttribute="leading" secondItem="yZQ-MS-SmC" secondAttribute="leading" id="pgT-Hc-RAX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="EUc-MB-lfI"/>
+                                <exclude reference="pgT-Hc-RAX"/>
+                                <exclude reference="7lp-0P-0n3"/>
+                                <exclude reference="C1p-sP-2BS"/>
+                                <exclude reference="nCc-QK-lc3"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
