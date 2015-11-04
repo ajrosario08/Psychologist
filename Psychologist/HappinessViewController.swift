@@ -43,7 +43,7 @@ class HappinessViewController: UIViewController, FaceViewDataSource {
     }
     
     func updateUI() {
-        faceView.setNeedsDisplay()
+        faceView?.setNeedsDisplay()
     }
     
     func smilinessForFaceView(sender: FaceView) -> Double? {
