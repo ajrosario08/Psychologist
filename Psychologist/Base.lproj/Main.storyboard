@@ -101,5 +101,49 @@
             </objects>
             <point key="canvasLocation" x="158" y="353"/>
         </scene>
+        <!--Happiness View Controller-->
+        <scene sceneID="elN-NF-Ehe">
+            <objects>
+                <viewController id="j6g-re-xTS" customClass="HappinessViewController" customModule="Psychologist" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0qo-Ac-wrM"/>
+                        <viewControllerLayoutGuide type="bottom" id="enj-NW-P9c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iLc-gv-z4v">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="QBI-QJ-pXh" customClass="FaceView" customModule="Psychologist" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fgi-Qs-l9R" appends="YES" id="r2y-zk-SL8"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="QBI-QJ-pXh" secondAttribute="trailing" id="1Lo-1m-yem"/>
+                            <constraint firstItem="QBI-QJ-pXh" firstAttribute="bottom" secondItem="enj-NW-P9c" secondAttribute="top" id="D4t-yj-QSK"/>
+                            <constraint firstItem="QBI-QJ-pXh" firstAttribute="leading" secondItem="iLc-gv-z4v" secondAttribute="leading" id="R3e-an-8l0"/>
+                            <constraint firstItem="QBI-QJ-pXh" firstAttribute="top" secondItem="iLc-gv-z4v" secondAttribute="top" id="zcb-WB-R8Z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="faceView" destination="QBI-QJ-pXh" id="PLG-5o-Na3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gHg-4d-nA0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="fgi-Qs-l9R">
+                    <connections>
+                        <action selector="changeHappiness:" destination="j6g-re-xTS" id="7X4-Le-Mom"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="846" y="353"/>
+        </scene>
     </scenes>
 </document>
