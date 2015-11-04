@@ -76,6 +76,14 @@
                                     <segue destination="pVg-hO-goP" kind="showDetail" identifier="happy" id="qtN-rS-WU7"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwU-Wc-BcC">
+                                <rect key="frame" x="271" y="378" width="59" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Nothing!"/>
+                                <connections>
+                                    <action selector="nothing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qtR-oy-eWU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -84,6 +92,7 @@
                             <constraint firstItem="Nfl-TJ-dCT" firstAttribute="top" secondItem="yZQ-MS-SmC" secondAttribute="bottom" constant="8" symbolic="YES" id="6Kd-1U-WWF"/>
                             <constraint firstItem="yZQ-MS-SmC" firstAttribute="centerX" secondItem="d83-Lj-88J" secondAttribute="centerX" id="7lp-0P-0n3"/>
                             <constraint firstItem="yZQ-MS-SmC" firstAttribute="top" secondItem="HGw-zQ-gav" secondAttribute="bottom" constant="9" id="C1p-sP-2BS"/>
+                            <constraint firstItem="kwU-Wc-BcC" firstAttribute="centerX" secondItem="Nfl-TJ-dCT" secondAttribute="centerX" id="DDM-Tf-atc"/>
                             <constraint firstItem="yZQ-MS-SmC" firstAttribute="top" secondItem="HGw-zQ-gav" secondAttribute="bottom" constant="8" symbolic="YES" id="DQx-Vy-UIH"/>
                             <constraint firstItem="HGw-zQ-gav" firstAttribute="centerX" secondItem="Nfl-TJ-dCT" secondAttribute="centerX" id="EUc-MB-lfI"/>
                             <constraint firstItem="d83-Lj-88J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ffr-ww-tD9"/>
@@ -91,6 +100,7 @@
                             <constraint firstItem="HGw-zQ-gav" firstAttribute="centerX" secondItem="yZQ-MS-SmC" secondAttribute="centerX" id="TeF-xd-wxx"/>
                             <constraint firstItem="d83-Lj-88J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="dty-tv-oFr"/>
                             <constraint firstItem="d83-Lj-88J" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="e5a-Wd-DdO"/>
+                            <constraint firstItem="kwU-Wc-BcC" firstAttribute="top" secondItem="Nfl-TJ-dCT" secondAttribute="bottom" constant="8" symbolic="YES" id="g8E-Ko-U8Q"/>
                             <constraint firstItem="yZQ-MS-SmC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gb5-CQ-9x3"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yZQ-MS-SmC" secondAttribute="bottom" constant="285" id="nCc-QK-lc3"/>
                             <constraint firstItem="HGw-zQ-gav" firstAttribute="leading" secondItem="yZQ-MS-SmC" secondAttribute="leading" id="pgT-Hc-RAX"/>
@@ -106,10 +116,13 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Psychologist" id="7wQ-SX-1Q4"/>
+                    <connections>
+                        <segue destination="pVg-hO-goP" kind="showDetail" identifier="nothing" id="4tJ-Eh-6Rz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="812" y="353"/>
+            <point key="canvasLocation" x="888" y="393"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="hVP-58-y09">
@@ -209,6 +222,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Y9H-mt-hFA"/>
+        <segue reference="4tJ-Eh-6Rz"/>
     </inferredMetricsTieBreakers>
 </document>
