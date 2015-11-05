@@ -9,6 +9,12 @@
 import UIKit
 
 class DiagnosedHappinessViewController: HappinessViewController {
+    
+    override var happiness: Int {
+        didSet {
+            diagnosticHistory += [happiness]
+        }
+    }
 
     var diagnosticHistory = [Int]()
     
