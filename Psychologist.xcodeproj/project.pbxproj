@@ -16,6 +16,7 @@
 		929AA8E61BE87346009EED4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929AA8E41BE87346009EED4A /* LaunchScreen.storyboard */; };
 		929AA8F11BE87346009EED4A /* PsychologistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AA8F01BE87346009EED4A /* PsychologistTests.swift */; };
 		929AA8FC1BE87346009EED4A /* PsychologistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929AA8FB1BE87346009EED4A /* PsychologistUITests.swift */; };
+		92D3C63C1BEB219A00776954 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D3C63B1BEB219A00776954 /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		929AA8F71BE87346009EED4A /* PsychologistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychologistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		929AA8FB1BE87346009EED4A /* PsychologistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologistUITests.swift; sourceTree = "<group>"; };
 		929AA8FD1BE87346009EED4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D3C63B1BEB219A00776954 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				92687B4B1BE9C7E6009B6449 /* FaceView.swift */,
 				92687B4C1BE9C7E6009B6449 /* HappinessViewController.swift */,
 				929AA8DF1BE87346009EED4A /* Main.storyboard */,
+				92D3C63B1BEB219A00776954 /* TextViewController.swift */,
 				929AA8E21BE87346009EED4A /* Assets.xcassets */,
 				929AA8E41BE87346009EED4A /* LaunchScreen.storyboard */,
 				929AA8E71BE87346009EED4A /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D3C63C1BEB219A00776954 /* TextViewController.swift in Sources */,
 				929AA8DE1BE87346009EED4A /* PsychologistViewController.swift in Sources */,
 				929AA8DC1BE87346009EED4A /* AppDelegate.swift in Sources */,
 				92687B4E1BE9C7E6009B6449 /* HappinessViewController.swift in Sources */,
