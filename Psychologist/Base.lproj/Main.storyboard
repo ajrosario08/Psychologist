@@ -137,10 +137,10 @@
             </objects>
             <point key="canvasLocation" x="-729" y="711"/>
         </scene>
-        <!--Happiness View Controller-->
+        <!--Diagnosed Happiness View Controller-->
         <scene sceneID="elN-NF-Ehe">
             <objects>
-                <viewController id="j6g-re-xTS" customClass="HappinessViewController" customModule="Psychologist" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="j6g-re-xTS" customClass="DiagnosedHappinessViewController" customModule="Psychologist" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0qo-Ac-wrM"/>
                         <viewControllerLayoutGuide type="bottom" id="enj-NW-P9c"/>
